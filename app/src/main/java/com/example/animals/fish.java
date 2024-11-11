@@ -11,5 +11,10 @@ public class fish extends Animal {
         System.out.println(" fish favourite food is vegtables");
     }
 
+    @Override
+    public void makeSound() {
+        System.out.println("fish sound");
+    }
+
 
 }
