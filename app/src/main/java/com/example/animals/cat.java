@@ -5,10 +5,6 @@ public class cat extends Animal implements runable{
     public void makeSound() {
         System.out.println("the cat meow");
     }
-    @Override
-    public void move(){
-        System.out.println("the cat walk on 4 legs");
-    }
 
     @Override
     public void eat(){
