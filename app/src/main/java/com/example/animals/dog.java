@@ -1,6 +1,6 @@
 package com.example.animals;
 
-public class dog extends Animal implements runable{
+public abstract class dog extends Animal implements Runable{
     @Override
     public void makeSound() {
         System.out.println("the dog barks");

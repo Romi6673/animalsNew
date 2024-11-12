@@ -1,6 +1,6 @@
 package com.example.animals;
 
-public class fish extends Animal {
+public abstract class fish extends Animal {
 
     @Override
     public void eat(){

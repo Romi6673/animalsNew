@@ -1,13 +1,9 @@
 package com.example.animals;
 
-public class Animal {
-    public void makeSound() {
-        System.out.println("The animal makes a sound");
-    }
+public abstract class Animal {
+    public abstract void makeSound();
 
 
-    public void eat(){
-        System.out.println("this Animal favourite food");
-    }
+    public abstract void eat();
 
 }
